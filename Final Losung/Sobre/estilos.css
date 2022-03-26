@@ -1,0 +1,229 @@
+/*
+-- Estilos CSS - Website da Empresa
+*/
+/*
+-- Padrões e Reset
+*/
+* {margin: 0; padding: 0;}
+ul {list-style-type: none;}
+img, fieldset {border: 0;}
+h1, h2, h3, h4, h5, h6 {font-weight: "Times New Roman";
+}
+
+/*
+-- Tipografia e Cores
+*/
+body {
+    width: 100%;
+    height: 100;
+ background: #FFF;
+ background-color: #edf1f1;
+}
+body, input, select, textarea {
+ font-family: "Times New Roman";
+}
+
+/* conteudo secundario */
+
+p {
+    font-style: regular;
+ font-size: 17px;
+ margin-bottom: 1.5em;
+ line-height: 1.4em;
+ color: #363838;
+ font-family: "Goudy Old Style";
+}
+
+
+#conteudo-principal h1 {
+ font-size: 36px;
+ margin-bottom: 0.5em;
+ font-family: "Goudy Old";
+}
+
+#conteudo-principal h2{
+    color: #363838;
+    font-weight: bold;
+    font-size: 23px;
+ margin-bottom: 0.5em;
+ font-family: "Goudy Old";
+}
+
+#conteudo-secundario h3{
+    font-weight: bold;
+    color: #525555;
+    font-size: 19px;
+ margin-bottom: 0.5em;
+ font-family: "Goudy Old";
+}
+
+#conteudo-secundario h1 {
+    color: #525555;
+    text-align: center;
+    font-size: 23px;
+ margin-bottom: 0.5em;
+ font-family: "Goudy Old Style";
+}
+
+#conteudo-secundario p {
+    color: color: #525555;
+ font-size: 15px;
+ text-align: left;
+ font-family: "Goudy Old Style";
+}
+#conteudo-principal ul,
+#conteudo-principal ol {
+    color: #363838;
+ font-size: 17px;
+ font-family: "Goudy Old Style";
+ margin-left: 2.5em;
+ margin-bottom: 2.5em;
+}
+#conteudo-principal ul {
+ list-style-type: square;
+}
+#conteudo-principal li {
+ margin-bottom: 0.2em;
+}
+/*
+-- Estrutura
+*/
+#cabecalho, #conteudo, #rodape {
+ width: 980px;
+ margin: 0 auto;
+}
+ /* cabeçalho */ 
+
+
+#cabecalho {
+ position: relative;
+}
+#logo {
+ padding: 0.1px 0;
+ display: block;
+ float: left;
+ margin-left: 10px;
+}
+#logo img {
+ display: block;
+ margin-left: 25px;
+ margin: 0px;
+}
+#menu-principal {
+ position: absolute;
+  top: 1px;
+ right: 0;
+}
+#menu-principal li {
+    display: inline;
+   }
+   #menu-principal a {
+    display: block;
+    float: left;
+    font-size: 15px;
+    text-decoration: none;
+    color: #333333;
+    margin-left: 20px;
+    font-family: "Goudy Old";
+   }
+   
+   #menu-principal a:hover, #menu-principal a.ativo {
+       color: #0f599f;
+      } #menu-principal a.ativo {
+       font-weight: normal;
+       font-family: "Goudy Old";
+       }
+
+       /* margem conteudo secundário */
+      
+#Banner {
+ height:70px;
+ background:  #38D9CE url(Banner.jpg) no-repeat center top;
+}
+#conteudo {
+ margin: 12px auto;
+}
+
+#conteudo-principal {
+ float: left;
+ width: 620px;
+}
+#conteudo-secundario {
+ float: right;
+ width: 300px;
+}
+#conteudo-secundario .interna {
+ padding: 27.5px;
+}
+#conteudo-secundario img {
+ display: block;
+}
+
+/* Rodapé */ 
+#rodape-fora {
+    background:  #38D9CE;
+    height: 50px;
+   }
+   #email {
+    float: left;
+    font-family: "Goudy Old Style";
+    margin-left: 2.5em;
+    font-size: 15px;
+    color: #FFF;
+    margin: 10px 0;
+   }
+   #telefone-email {
+    font-size: 0.8em;
+   }
+   #telefone {
+    font-family: "Goudy Old Style";
+ margin-left: 2.5em;
+    float: right;
+    font-size: 15px;
+    color: #FFF;
+    margin: 10px 0;
+   }
+
+   
+
+/*
+-- Estilos específicos de Seção
+*/#Banner {
+ height: 200px;
+ margin: 0;
+}
+/* home */
+#bd-home #conteudo-secundario {
+ background:  #FFF;
+ color: black;
+}
+#bd-home #conteudo-secundario a {
+ color: #FFF;
+}
+/* empresa */
+/* #bd-empresa .legenda {
+    margin: 0;
+    color: #FFF;
+    background:  #38D9CE;
+    font-style: italic;
+    text-align: center;
+    padding: 0.3em 0.6em;
+   } */
+/*
+-- Formulários
+*/
+/*
+-- Tabelas
+*/
+/*
+-- Classes de Uso Geral
+*/
+.grupo::before, .grupo::after {
+ content: " ";
+ display: table;
+ margin: 0;
+}
+.grupo::after {
+ clear: both;
+ margin: 0;
+}

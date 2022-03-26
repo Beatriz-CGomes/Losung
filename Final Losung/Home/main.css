@@ -1,0 +1,327 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #e0e6e5;
+    font-family: "Goudy Old Style";
+}
+
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width:  100%;
+    background-color: #38D9CE;
+    height: 50px;
+    margin-top: -0.5em;
+   }
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+}
+
+.topo ul li{
+    margin-right: 15px;
+    display: inline-block;
+    list-style: none;
+    float: left;
+
+} 
+
+.logo {
+     float: left;
+     width: 70px;
+}
+
+.topo {
+     float: right;
+}
+ /* frase do cabeçaho */ 
+.Frase {
+    font-size: 14px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 16px;
+    font-family: "Goudy Old";
+}
+
+/*fundo branco */ 
+
+.header-2 {
+ background-color: #ffff;
+ width: 100;
+ height: 40px;
+ margin: 0 auto;
+ padding: 16px;
+}
+
+.menu-urls{
+    height: 50px;
+    border-bottom: 3px solid #efefef;
+}
+
+/* categorias do menu */ 
+
+.categorias ul li{
+   display: inline-block;
+   color: #000000;
+   margin-left: 20px;
+   height: 35px;
+}
+
+.categorias ul li:hover{
+    border-bottom: 2px solid  #0f599f;
+}
+
+
+.categorias ul li a:hover{
+ color: #0f599f;
+}
+
+ .categorias ul li a { 
+    color: #000000;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Goudy Old";
+}
+    
+
+
+.categorias {
+    float: left;
+    width: 70%;
+}
+
+.busca {
+    font-family: "Goudy Old Style";
+    text-align: center;
+    width: 20%;
+    float: left;
+    padding: 13px;
+}
+
+
+.busca input{
+    background-image: url(Img/bus.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    margin-top: 5px;
+    height: 23px;
+    width: 180px;
+    border: 1px solid #bbb7b7;
+    
+}
+
+
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+
+.cat img {
+    color: #000000;
+    margin-left: 20px;
+ }
+  .cat a { 
+     color: #000000;
+     font-size: 15px;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-align: center;
+     
+ }
+
+ .button.slick-prev {
+  font-size: 0px;
+  border: none;
+  width: 25px;
+  height: 51px;
+  background-color: transparent;
+}
+
+/* Banner Rotativo */
+
+@keyframes carousel{
+    0%    { left:0%; }
+    11%   { left:0; }
+    12.5% { left:-100%; }
+    23.5% { left:-100%; }
+    25%   { left:-200%; }
+    36%   { left:-200%; }
+    37.5% { left:-300%; }
+    48.5% { left:-300%; }
+    50%   { left:-400%; }
+    61%   { left:-400%; }
+    62.5% { left:-300%; }
+    73.5% { left:-300%; }
+    75%   { left:-200%; }
+    86%   { left:-200%; }
+    87.5% { left:-100%; }
+    98.5% { left:-100%; }
+    100%  { left:0; }
+}
+@keyframes go{
+    0%    { left: 0; }
+    100%    { left:-300%; }
+}
+@keyframes back{
+    0%    { left:0; }
+    100%  { left:100%; }
+}
+.carousel{
+    width:60%; 
+    overflow:hidden; 
+    height:100%;
+    border-radius: 20px solid #efefef;
+    margin: auto;
+}
+.paineis{
+    width:500%; 
+    overflow:hidden;
+    height:100%;  
+    animation:carousel 30s infinite; 
+    position:relative;
+    margin: 20px;
+}
+
+article{
+    float:left; 
+    width:20%;
+} 
+.paineis img{
+    height:50%; 
+    width:90%;
+}
+
+
+
+
+/* .button.paineis {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+     position: absolute; 
+    background-image: url("depois.png");
+    top: 35%
+    left; 0;
+    z-index: 9;
+
+}
+ */
+
+
+
+/* Banner 2 branco */
+.header-3 {
+    width: 100;
+    height: 80px;
+    margin: 5px;
+    padding: 16px;
+
+}
+
+.header-3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/* Banners promocionais */
+
+p {
+    color: #000000;
+     text-decoration: none;
+     text-align: left;
+     font-family: "Goudy Old Style";
+     margin-left: 177px;
+}
+
+
+.col-4 {
+    width: 2.2%;
+   /* position: relative;*/
+    float: left;
+   /* padding-left: 50px;
+    padding-right: 50px; */
+     margin-left: 175px; 
+     
+    }
+
+.header-4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+#footer {
+    background-color:#38D9CE;
+    height: 70px;
+    margin-left: 10px;
+    margin: 0 auto;
+}
+
+#footer ul{
+    width: 85vw;
+    padding: 30px;
+    list-style: none;
+    text-align: center;
+    
+    
+}
+
+#footer ul li {
+    display: inline;
+    color: #ffff;
+    text-decoration: none;
+    font-family: "Goudy Old Style";
+     text-align: center;
+     margin: 0 auto;
+     margin-left: 15px;
+}
+
+#footer ul li a {
+    padding: 20px 2px;
+    display: inline-block;
+     color: #ffff;
+     font-size: 15px;
+     text-decoration: none;
+     font-family: "Goudy Old Style";
+     text-align: center;
+     
+}
+
+#footer img {
+    padding:-2px;
+
+     
+}
+
+
+#footer ul li a:hover {
+    color: #ffff;
+    text-decoration: none;
+    font-family: "Goudy Old Style";
+     text-align: center;
+     margin: 0 auto;
+
+    
+}
+
+

@@ -1,0 +1,8 @@
+{
+    "nome":"cadastro_sku",
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    }
+}

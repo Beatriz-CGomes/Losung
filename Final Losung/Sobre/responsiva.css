@@ -1,0 +1,25 @@
+*{
+    margin:10px auto
+}
+
+div.site{
+   width:1200px;
+   height:400px;
+   display:flex;
+   flex-direction:row;
+   background-color:Blue;
+   }
+
+   div.menu-principal {
+      flex:1;
+      margin:4px;
+     background-color:yellow;
+}
+
+@midia screen and (max-width:600px) {
+div.grande{
+   width:400px;
+   height:1200px;
+   flex-direction:column;
+   background-color:Blue;
+   }
